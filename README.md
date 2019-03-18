@@ -57,7 +57,7 @@ http://localhost:8080/voos
 Http: GET
 
 ####Passando como parâmetro:
-keys: Origem, Destino e Data (Formato: yyyy-MM-dd)
+Origem, Destino e Data (Formato: yyyy-MM-dd)
 
 Exemplo: http://localhost:8080/voos/BSB/FLN/2019-02-14
 
