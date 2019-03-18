@@ -5,7 +5,7 @@ Passos necessários para funcionamento da api-busca-voos
 ###############################################
 1) baixar os seguintes arquivos do repositorio:
 
-> JAR : target.zip
+> JAR : api-busca-voo-1.0.0-SNAPSHOT.jar
 
 > Fonte de Dados:
 
@@ -28,9 +28,11 @@ Passos necessários para funcionamento da api-busca-voos
 
 > Abrir cmd;
 
-> entrar no diretório onde salvou a pasta target descompactada; 
+> entrar no diretório onde salvou o jar api-busca-voo-1.0.0-SNAPSHOT.jar; 
 
-> dentro do diretório executar comando java -jar api-busca-voo-1.0.0-SNAPSHOT.jar
+> dentro do diretório executar comando: 
+
+java -jar api-busca-voo-1.0.0-SNAPSHOT.jar
 
 
 #################################################
