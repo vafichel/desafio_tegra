@@ -40,6 +40,8 @@ Passos necessários para funcionamento da api-busca-voos
 > PRIMEIRO ENDPOINT:
 http://localhost:8080/aeroportos
 
+Http: GET
+
 Não necessita passagem de parametros;
 Objetivo : Lista todos os dados de todos os aeroportos existentes no arquivo aeroportos.json.
 
@@ -48,6 +50,8 @@ Objetivo : Lista todos os dados de todos os aeroportos existentes no arquivo aer
 
 >SEGUNDO ENDPOINT:
 http://localhost:8080/voos
+
+Http: GET
 
 ####Passando como parâmetro:
 keys: Origem, Destino e Data (Formato: yyyy-MM-dd)
