@@ -4,25 +4,16 @@ Repositório com arquivos da api desenvolvida para o desafio Tegra, além de arq
 
 Passos necessários para funcionamento da api-busca-voos
 ###############################################
-1) baixar os seguintes arquivos do repositorio:
-
-> JAR : api-busca-voo-1.0.0-SNAPSHOT.jar
+1) baixar o JAR api-busca-voo-1.0.0-SNAPSHOT.jar
 
 O JAR encontra-se na raiz dos fontes. Baixar no seguinte caminho:
 https://github.com/vafichel/desafio_tegra/tree/master/api-busca-voo
 
-> Fonte de Dados:
-
-	* 99planes.json
-	* aeroportos.json
-	* uberair.csv
 
 ################################################	
 	
 2) Pré - requisitos: 
 > Java 8;
-
-> Salvar arquivos de dados no caminho C:\desafioTegra\dados
 
 > Aplicativo Postman para executar chamada direto na api;
 
