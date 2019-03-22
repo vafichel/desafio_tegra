@@ -48,7 +48,7 @@ public class ApiBuscaVooCargaInicial {
 	 * Iniciando carga do arquivo aeroportos.json
 	 */
 	private void cargaAeroportos (){
-		File arquivo = lerArquivo("C:/desafioTegra/dados/aeroportos.json");
+		File arquivo = lerArquivo("src/main/java/br/com/tegra/dev/apibuscavoo/cargainicial/arquivosdados/aeroportos.json");
 		List<Aeroporto> lista = null;
 		
 		if(arquivo.exists()){
@@ -89,7 +89,7 @@ public class ApiBuscaVooCargaInicial {
 	 * Iniciando carga do arquivo 99planes.json
 	 */
 	private void cargaVoo99Planes(){
-		File arquivo = lerArquivo("C:/desafioTegra/dados/99planes.json");
+		File arquivo = lerArquivo("src/main/java/br/com/tegra/dev/apibuscavoo/cargainicial/arquivosdados/99planes.json");
 		List<Voo99PlanesTo> lista = null;
 		
 		if(arquivo.exists()){
@@ -157,7 +157,7 @@ public class ApiBuscaVooCargaInicial {
 		List<VooUberAirTo> lista;
 		List<Voo> voos;
 		try {
-			FileReader file = new FileReader(lerArquivo("C:/desafioTegra/dados/uberair.csv"));
+			FileReader file = new FileReader(lerArquivo("src/main/java/br/com/tegra/dev/apibuscavoo/cargainicial/arquivosdados/uberair.csv"));
 			lista = new CsvToBeanBuilder(file).withType(VooUberAirTo.class).build().parse();
 			
 			voos = parseVooUberAir(lista);
